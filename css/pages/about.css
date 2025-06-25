@@ -1,1 +1,66 @@
+.about-section {
+    padding: 60px 20px;
+}
+.light-gradient { background: linear-gradient(0deg,rgb(106,127,219) 0%,rgb(255,255,255) 100%); }
+.mid-gradient { background: linear-gradient(0deg,rgb(42,82,190) 0%,rgb(106,127,219) 100%); color: white;}
 
+.about-card {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: rgba(24, 66, 181, 0.62);
+    border-radius: 20px;
+    color: white;
+}
+.two-column-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.two-column-card.reverse { flex-direction: row-reverse; }
+
+.card-text {
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+}
+.card-image {
+    flex: 1;
+    min-width: 300px;
+}
+.card-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+}
+.two-column-card .card-image img {
+    border-radius: 0 20px 20px 0;
+}
+.two-column-card.reverse .card-image img {
+    border-radius: 20px 0 0 20px;
+}
+
+.history-grid {
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.history-card {
+    flex: 1;
+    background-color: var(--primary-blue);
+    color: var(--light-text);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+}
+.history-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.large-card { flex-basis: 60%; }
+.small-card { flex-basis: 35%; }
