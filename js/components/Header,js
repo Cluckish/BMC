@@ -3,7 +3,7 @@ export function Header() {
         <header class="site-header">
             <div class="header-content">
                 <a href="/" class="logo-group" data-link>
-                    <div class="logo-placeholder">BMC</div> 
+                    <img src="images/bmc-logo.jpg" alt="Benoit Marketing Consultants Logo">
                     <span class="site-title">Benoit Marketing</span>
                 </a>
                 <nav class="main-nav">
