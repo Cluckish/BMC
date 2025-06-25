@@ -1,1 +1,61 @@
+.services-page {
+    padding: 60px 20px;
+    color: var(--light-text);
+    background-color: var(--primary-blue);
+}
+.services-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+.services-intro h1 {
+    font-size: 48px;
+}
+.services-intro p {
+    font-size: 20px;
+}
 
+.pricing-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.pricing-card {
+    background-color: var(--base-bg);
+    color: var(--dark-text);
+    border-radius: 25px;
+    padding: 40px;
+    flex: 1;
+    min-width: 320px;
+    max-width: 450px;
+    text-align: center;
+}
+.pricing-card h4 {
+    font-size: 30px;
+}
+.pricing-card .price {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--accent-yellow);
+    margin: 10px 0;
+}
+.pricing-card .price.variable {
+    color: var(--accent-orange);
+}
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+}
+.pricing-card ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-weight: 600;
+}
+.pricing-card ul li:first-child {
+    border-top: 1px solid #eee;
+}
