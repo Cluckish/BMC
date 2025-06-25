@@ -1,1 +1,57 @@
+.site-header {
+    background-color: var(--base-bg);
+    padding: 10px 40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--dark-text);
+}
+
+.logo-placeholder {
+    width: 60px;
+    height: 60px;
+    background-color: var(--primary-blue);
+    color: var(--light-text);
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.site-title {
+    font-family: var(--font-heading);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.main-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.main-nav a {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--dark-text);
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.main-nav a:hover {
+    border-bottom-color: var(--primary-blue);
+}
