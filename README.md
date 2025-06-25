@@ -3,10 +3,6 @@ This is the official website for Benoit Marketing Consultants, a marketing agenc
 
 The website is built as a lightweight, fast, and modern Single Page Application (SPA) using vanilla JavaScript, HTML, and CSS.
 
-Live Demo: https://your-github-username.github.io/your-repo-name/
-
-(Note: Replace the link above with your actual GitHub Pages URL after deployment.)
-
 Features
 Single Page Application (SPA): A seamless and fast user experience with no page reloads during navigation.
 Three Core Sections:
@@ -22,7 +18,7 @@ Vanilla JavaScript (ES6+): For the SPA routing logic, component rendering, and a
 File Structure Overview
 The project uses a clean, modular file structure to separate concerns:
 
-your-repo-name/
+BMC/
 │
 ├── 📂 css/              # All CSS files
 │   ├── components/      # Styles for shared components (header, footer)
