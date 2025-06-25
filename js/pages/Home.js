@@ -7,7 +7,7 @@ export function Home() {
                     <p>We believe that small businesses and real people are the lifeblood of Boise. We help your business do more business.</p>
                 </div>
                 <div class="hero-image">
-                    <img src="images/bmc-homepage-image.png" alt="Benoit Marketing Consultants working with a client" />
+                    <img src="images/bmc-homepage.jpg" alt="A sketch of the Idaho State Capitol building in Boise" />
                 </div>
             </section>
 
