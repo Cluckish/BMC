@@ -19,9 +19,15 @@
     min-width: 250px;
 }
 
-.footer-branding .logo-placeholder {
+/* UPDATED: Styles for the new logo image in the footer */
+.footer-branding img {
+    width: 100px;
+    height: auto;
     margin: 0 auto 15px auto;
+    background-color: white; /* Add a background for visibility */
+    border-radius: 5px; /* Optional: adds slightly rounded corners */
 }
+
 
 .footer-branding .site-title {
     font-size: 22px;
