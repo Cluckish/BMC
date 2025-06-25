@@ -3,7 +3,7 @@ export function Footer() {
         <footer class="site-footer">
             <div class="footer-content">
                 <div class="footer-branding">
-                    <div class="logo-placeholder">BMC</div>
+                    <img src="images/bmc-logo.jpg" alt="Benoit Marketing Consultants Logo">
                     <p class="site-title">Benoit Marketing Consultants</p>
                     <p class="site-tagline">Helping Boise's Businesses Do More Business</p>
                 </div>
