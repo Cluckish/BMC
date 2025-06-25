@@ -1,2 +1,2 @@
 # BMC
-Benoit
+Benoit Marketing Consultants
