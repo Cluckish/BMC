@@ -1,1 +1,69 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+.hero-text h1 {
+    font-size: 60px;
+    line-height: 1.1;
+}
+.hero-text p {
+    font-size: 22px;
+}
+.hero-image {
+    flex: 1;
+    max-width: 600px;
+}
+.hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
 
+.info-section {
+    padding: 60px 40px;
+}
+.info-section h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.info-section p {
+    font-size: 24px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.services-overview {
+    padding-bottom: 60px;
+}
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 40px auto 0 auto;
+}
+.service-card {
+    background-color: var(--base-bg);
+    color: var(--dark-text);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+.service-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.service-card p {
+    font-size: 20px;
+}
