@@ -19,17 +19,10 @@
     color: var(--dark-text);
 }
 
-.logo-placeholder {
-    width: 60px;
-    height: 60px;
-    background-color: var(--primary-blue);
-    color: var(--light-text);
-    display: grid;
-    place-items: center;
-    border-radius: 50%;
-    font-family: var(--font-heading);
-    font-weight: 700;
-    font-size: 20px;
+/* UPDATED: Styles for the new logo image */
+.logo-group img {
+    width: 85px; /* You can adjust this as needed */
+    height: auto;
 }
 
 .site-title {
